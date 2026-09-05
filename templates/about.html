@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>How It Works — Transaction Risk Investigation Assistant</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>How It Works</h1>
+    <p class="subtitle">PS06 — Banking / Fraud Desk</p>
+
+    <p>
+      This assistant reviews a single customer's transaction history against
+      a set of deterministic risk rules. It never claims fraud — it only
+      highlights activity that deviates from that customer's own baseline
+      behavior and marks the account for human review.
+    </p>
+
+    <h3>The Rules</h3>
+    <ul>
+      <li><strong>Large Transfers</strong> — flags transactions well above the customer's typical transaction size.</li>
+      <li><strong>New-Payee Bursts</strong> — flags a cluster of payments to payees the customer has never paid before, sent in a short window.</li>
+      <li><strong>Odd-Hours Activity</strong> — flags transactions made at hours the customer doesn't normally transact in.</li>
+      <li><strong>Pattern Deviation</strong> — flags overall behavior that breaks from the customer's established pattern (frequency, amount, or destination).</li>
+    </ul>
+
+    <h3>What the Verdict Means</h3>
+    <p>
+      <strong>Flagged</strong> means one or more rules triggered and the account
+      needs human review — it is not a fraud determination.
+      <strong>Routine</strong> means the transaction history is consistent with
+      the customer's own baseline.
+    </p>
+
+    <h3>Why No Fraud Detection Model?</h3>
+    <p>
+      The rules are fully deterministic and run with zero LLM calls, so every
+      flag can be traced back to the exact transactions that caused it. The
+      AI is only used afterward, to turn the rule engine's findings into a
+      readable narrative report — it never makes the flagging decision itself.
+    </p>
+
+    <p class="nav-link"><a href="/">&larr; Back to Investigation Tool</a></p>
+  </div>
+</body>
+</html>
