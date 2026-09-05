@@ -1,0 +1,124 @@
+customer_id,date,description,payee,amount,channel,type
+CUST001,2025-03-02 09:45,Rent Payment,Landlord Rent Co,1200.0,AutoPay,debit
+CUST001,2025-03-03 09:15,Coffee Shop,Daily Grind Cafe,6.81,Card,debit
+CUST001,2025-03-05 15:15,Electricity Bill,City Power Utility,60.32,AutoPay,debit
+CUST001,2025-03-07 10:00,Restaurant,Local Bistro,52.29,Card,debit
+CUST001,2025-03-09 10:00,Rent Payment,Landlord Rent Co,1200.0,AutoPay,debit
+CUST001,2025-03-10 15:15,Gym Membership,Local Gym,45.0,AutoPay,debit
+CUST001,2025-03-12 18:15,Electricity Bill,City Power Utility,73.35,AutoPay,debit
+CUST001,2025-03-13 20:15,Salary Credit,Employer Payroll Inc,3275.89,NEFT,credit
+CUST001,2025-03-14 18:45,Grocery Shopping,GreenMart Grocery,130.88,Card,debit
+CUST001,2025-03-16 20:45,Coffee Shop,Daily Grind Cafe,6.69,Card,debit
+CUST001,2025-03-18 14:15,Electricity Bill,City Power Utility,66.92,AutoPay,debit
+CUST001,2025-03-20 10:00,Salary Credit,Employer Payroll Inc,3276.95,NEFT,credit
+CUST001,2025-03-23 15:15,Streaming Subscription,Netflix,15.99,AutoPay,debit
+CUST001,2025-03-26 10:00,Electricity Bill,City Power Utility,74.92,AutoPay,debit
+CUST001,2025-03-29 18:00,Grocery Shopping,GreenMart Grocery,73.11,Card,debit
+CUST001,2025-03-30 10:45,Electricity Bill,City Power Utility,84.3,AutoPay,debit
+CUST001,2025-04-02 11:30,Grocery Shopping,GreenMart Grocery,79.43,Card,debit
+CUST001,2025-04-04 18:15,Grocery Shopping,GreenMart Grocery,47.71,Card,debit
+CUST001,2025-04-05 10:30,Grocery Shopping,GreenMart Grocery,42.08,Card,debit
+CUST001,2025-04-07 14:45,Restaurant,Local Bistro,29.72,Card,debit
+CUST001,2025-04-08 10:00,Rent Payment,Landlord Rent Co,1200.0,AutoPay,debit
+CUST001,2025-04-10 18:30,Electricity Bill,City Power Utility,65.46,AutoPay,debit
+CUST001,2025-04-12 14:00,Salary Credit,Employer Payroll Inc,3374.9,NEFT,credit
+CUST001,2025-04-13 11:45,Salary Credit,Employer Payroll Inc,3281.28,NEFT,credit
+CUST001,2025-04-15 20:15,Restaurant,Local Bistro,46.47,Card,debit
+CUST001,2025-04-16 15:45,Salary Credit,Employer Payroll Inc,3243.54,NEFT,credit
+CUST001,2025-04-19 11:45,Grocery Shopping,GreenMart Grocery,124.39,Card,debit
+CUST001,2025-04-20 14:30,Gym Membership,Local Gym,45.0,AutoPay,debit
+CUST001,2025-04-21 18:00,Rent Payment,Landlord Rent Co,1200.0,AutoPay,debit
+CUST001,2025-04-23 10:30,Grocery Shopping,GreenMart Grocery,62.85,Card,debit
+CUST001,2025-04-25 11:30,Salary Credit,Employer Payroll Inc,3287.64,NEFT,credit
+CUST001,2025-04-26 11:30,Grocery Shopping,GreenMart Grocery,112.95,Card,debit
+CUST001,2025-04-27 15:00,Streaming Subscription,Netflix,15.99,AutoPay,debit
+CUST001,2025-04-28 18:00,Coffee Shop,Daily Grind Cafe,7.71,Card,debit
+CUST001,2025-04-29 10:45,Electricity Bill,City Power Utility,94.55,AutoPay,debit
+CUST001,2025-04-30 09:15,Grocery Shopping,GreenMart Grocery,118.59,Card,debit
+CUST001,2025-05-01 18:15,Grocery Shopping,GreenMart Grocery,77.67,Card,debit
+CUST001,2025-05-02 19:30,Grocery Shopping,GreenMart Grocery,69.88,Card,debit
+CUST001,2025-05-03 10:30,Gym Membership,Local Gym,45.0,AutoPay,debit
+CUST001,2025-05-04 14:30,Streaming Subscription,Netflix,15.99,AutoPay,debit
+CUST001,2025-05-07 19:15,Streaming Subscription,Netflix,15.99,AutoPay,debit
+CUST001,2025-05-10 15:45,Rent Payment,Landlord Rent Co,1200.0,AutoPay,debit
+CUST001,2025-05-13 14:30,Grocery Shopping,GreenMart Grocery,35.18,Card,debit
+CUST001,2025-05-15 10:30,Streaming Subscription,Netflix,15.99,AutoPay,debit
+CUST001,2025-05-17 18:30,Electricity Bill,City Power Utility,74.78,AutoPay,debit
+CUST001,2025-05-19 09:45,Restaurant,Local Bistro,32.89,Card,debit
+CUST001,2025-05-20 20:00,Gym Membership,Local Gym,45.0,AutoPay,debit
+CUST001,2025-05-21 15:45,Rent Payment,Landlord Rent Co,1200.0,AutoPay,debit
+CUST001,2025-05-23 14:45,Rent Payment,Landlord Rent Co,1200.0,AutoPay,debit
+CUST001,2025-05-24 11:45,Rent Payment,Landlord Rent Co,1200.0,AutoPay,debit
+CUST001,2025-05-25 20:45,Coffee Shop,Daily Grind Cafe,8.75,Card,debit
+CUST001,2025-05-26 20:15,Restaurant,Local Bistro,51.11,Card,debit
+CUST001,2025-05-28 20:15,Electricity Bill,City Power Utility,74.29,AutoPay,debit
+CUST001,2025-05-29 19:00,Coffee Shop,Daily Grind Cafe,6.04,Card,debit
+CUST001,2025-05-30 19:45,Coffee Shop,Daily Grind Cafe,4.1,Card,debit
+CUST001,2025-05-31 18:45,Grocery Shopping,GreenMart Grocery,128.62,Card,debit
+CUST001,2025-06-01 15:45,Electricity Bill,City Power Utility,61.45,AutoPay,debit
+CUST001,2025-06-02 09:15,Restaurant,Local Bistro,37.14,Card,debit
+CUST001,2025-06-03 15:30,Coffee Shop,Daily Grind Cafe,7.81,Card,debit
+CUST001,2025-06-04 20:00,Salary Credit,Employer Payroll Inc,3203.88,NEFT,credit
+CUST001,2025-06-05 14:45,Grocery Shopping,GreenMart Grocery,60.05,Card,debit
+CUST001,2025-06-07 18:00,Streaming Subscription,Netflix,15.99,AutoPay,debit
+CUST001,2025-06-10 09:00,Grocery Shopping,GreenMart Grocery,130.34,Card,debit
+CUST001,2025-06-13 14:30,Salary Credit,Employer Payroll Inc,3220.38,NEFT,credit
+CUST001,2025-06-16 19:00,Restaurant,Local Bistro,36.8,Card,debit
+CUST002,2025-03-03 17:45,Fuel,QuickFuel Station,46.22,Card,debit
+CUST002,2025-03-05 17:45,Salary Credit,Employer Payroll Inc,2887.11,NEFT,credit
+CUST002,2025-03-06 12:45,Utility Bill,Metro Water & Gas,68.49,AutoPay,debit
+CUST002,2025-03-07 08:15,Phone Bill,Telecom One,35.0,AutoPay,debit
+CUST002,2025-03-08 21:45,Fuel,QuickFuel Station,32.21,Card,debit
+CUST002,2025-03-09 18:45,Grocery Shopping,FreshMart,92.26,Card,debit
+CUST002,2025-03-12 18:00,Rent Payment,Skyline Apartments,950.0,AutoPay,debit
+CUST002,2025-03-15 17:00,Phone Bill,Telecom One,35.0,AutoPay,debit
+CUST002,2025-03-16 08:30,Salary Credit,Employer Payroll Inc,2859.25,NEFT,credit
+CUST002,2025-03-17 21:30,Grocery Shopping,FreshMart,39.23,Card,debit
+CUST002,2025-03-18 09:00,Grocery Shopping,FreshMart,107.56,Card,debit
+CUST002,2025-03-19 19:15,Online Shopping,ShopEase,22.7,Card,debit
+CUST002,2025-03-22 08:00,Phone Bill,Telecom One,35.0,AutoPay,debit
+CUST002,2025-03-23 08:45,Rent Payment,Skyline Apartments,950.0,AutoPay,debit
+CUST002,2025-03-25 21:00,Online Shopping,ShopEase,33.38,Card,debit
+CUST002,2025-03-26 09:15,Grocery Shopping,FreshMart,86.26,Card,debit
+CUST002,2025-03-27 17:45,Fuel,QuickFuel Station,29.98,Card,debit
+CUST002,2025-03-28 09:00,Grocery Shopping,FreshMart,66.23,Card,debit
+CUST002,2025-03-30 08:30,Online Shopping,ShopEase,58.83,Card,debit
+CUST002,2025-04-02 19:45,Rent Payment,Skyline Apartments,950.0,AutoPay,debit
+CUST002,2025-04-03 21:30,Grocery Shopping,FreshMart,58.9,Card,debit
+CUST002,2025-04-05 19:00,Online Shopping,ShopEase,36.01,Card,debit
+CUST002,2025-04-08 08:15,Grocery Shopping,FreshMart,76.66,Card,debit
+CUST002,2025-04-10 13:15,Fuel,QuickFuel Station,45.95,Card,debit
+CUST002,2025-04-12 09:15,Grocery Shopping,FreshMart,38.39,Card,debit
+CUST002,2025-04-14 13:45,Grocery Shopping,FreshMart,93.49,Card,debit
+CUST002,2025-04-17 17:45,Salary Credit,Employer Payroll Inc,2828.93,NEFT,credit
+CUST002,2025-04-19 21:15,Phone Bill,Telecom One,35.0,AutoPay,debit
+CUST002,2025-04-21 13:15,Utility Bill,Metro Water & Gas,57.26,AutoPay,debit
+CUST002,2025-04-24 19:45,Online Shopping,ShopEase,45.74,Card,debit
+CUST002,2025-04-25 21:00,Online Shopping,ShopEase,71.53,Card,debit
+CUST002,2025-04-28 21:30,Salary Credit,Employer Payroll Inc,2982.09,NEFT,credit
+CUST002,2025-04-30 19:30,Phone Bill,Telecom One,35.0,AutoPay,debit
+CUST002,2025-05-02 09:45,Rent Payment,Skyline Apartments,950.0,AutoPay,debit
+CUST002,2025-05-03 08:30,Salary Credit,Employer Payroll Inc,2952.07,NEFT,credit
+CUST002,2025-05-04 12:15,Online Shopping,ShopEase,51.79,Card,debit
+CUST002,2025-05-05 13:45,Rent Payment,Skyline Apartments,950.0,AutoPay,debit
+CUST002,2025-05-07 12:00,Phone Bill,Telecom One,35.0,AutoPay,debit
+CUST002,2025-05-09 17:15,Grocery Shopping,FreshMart,56.92,Card,debit
+CUST002,2025-05-11 17:00,Fuel,QuickFuel Station,35.77,Card,debit
+CUST002,2025-05-13 21:30,Phone Bill,Telecom One,35.0,AutoPay,debit
+CUST002,2025-05-14 12:00,Fuel,QuickFuel Station,43.63,Card,debit
+CUST002,2025-05-15 18:45,Utility Bill,Metro Water & Gas,62.04,AutoPay,debit
+CUST002,2025-05-16 12:30,Utility Bill,Metro Water & Gas,79.33,AutoPay,debit
+CUST002,2025-05-18 12:15,Salary Credit,Employer Payroll Inc,2993.48,NEFT,credit
+CUST002,2025-05-20 09:45,Phone Bill,Telecom One,35.0,AutoPay,debit
+CUST002,2025-05-22 13:45,Salary Credit,Employer Payroll Inc,2934.57,NEFT,credit
+CUST002,2025-05-23 21:30,Fuel,QuickFuel Station,43.3,Card,debit
+CUST002,2025-05-25 12:45,Rent Payment,Skyline Apartments,950.0,AutoPay,debit
+CUST002,2025-05-27 12:45,Fuel,QuickFuel Station,41.21,Card,debit
+CUST002,2025-05-28 21:45,Rent Payment,Skyline Apartments,950.0,AutoPay,debit
+CUST002,2025-05-29 08:45,Utility Bill,Metro Water & Gas,44.97,AutoPay,debit
+CUST002,2025-05-31 08:00,Fuel,QuickFuel Station,38.64,Card,debit
+CUST002,2025-06-03 02:13,Wire Transfer,QuickCash Transfer LLC,4800.0,WireTransfer,debit
+CUST002,2025-06-04 03:02,Wire Transfer,Global Wire Partners,5200.0,WireTransfer,debit
+CUST002,2025-06-05 02:47,Wire Transfer,Rapid Funds Exchange,4950.0,WireTransfer,debit
+CUST002,2025-06-05 13:10,Grocery Shopping,FreshMart,42.5,Card,debit
+CUST002,2025-06-06 04:05,Wire Transfer,QuickCash Transfer LLC,3100.0,WireTransfer,debit

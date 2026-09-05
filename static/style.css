@@ -1,0 +1,19 @@
+body { font-family: -apple-system, Segoe UI, Roboto, sans-serif; background:#f4f5f7; margin:0; padding:2rem; }
+.container { max-width: 800px; margin: 0 auto; background:#fff; padding:2rem; border-radius:10px; box-shadow:0 1px 4px rgba(0,0,0,0.1); }
+h1 { margin-bottom:0.2rem; }
+.subtitle { color:#666; margin-top:0; }
+.controls { display:flex; gap:0.75rem; align-items:center; margin:1.5rem 0; }
+select, button { padding:0.5rem 0.8rem; font-size:1rem; border-radius:6px; border:1px solid #ccc; }
+button { background:#2c5aa0; color:white; border:none; cursor:pointer; }
+button:disabled { opacity:0.6; cursor:default; }
+#status { color:#666; min-height:1.2em; }
+.verdict { font-size:1.2rem; font-weight:600; padding:0.75rem 1rem; border-radius:8px; margin-bottom:1rem; }
+.verdict.clear { background:#e6f4ea; color:#1e7a34; }
+.verdict.flagged { background:#fdecea; color:#c0392b; }
+.narrative { white-space:pre-wrap; line-height:1.5; margin-bottom:1.5rem; padding:1rem; background:#fafafa; border-radius:8px; }
+.finding { padding:0.6rem 0.9rem; margin-bottom:0.5rem; border-radius:6px; border-left:4px solid #ccc; }
+.finding.triggered { border-left-color:#c0392b; background:#fff8f7; }
+.finding.clean { border-left-color:#27ae60; background:#f7fdf9; color:#666; }
+.finding ul { margin:0.4rem 0 0 1rem; padding:0; font-size:0.9rem; }
+.nav-link { margin-top: -0.5rem; margin-bottom: 1rem; }
+.nav-link a { color: inherit; text-decoration: underline; }

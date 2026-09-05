@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Transaction Risk Investigation Assistant</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Transaction Risk Investigation Assistant</h1>
+    <p class="subtitle">PS06 — Banking / Fraud Desk</p>
+    <p class="nav-link"><a href="/about">How this works &rarr;</a></p>
+
+    <div class="controls">
+      <label for="customer">Customer:</label>
+      <select id="customer">
+        {% for c in customers %}
+          <option value="{{ c }}">{{ c }}</option>
+        {% endfor %}
+      </select>
+      <button id="investigate-btn">Investigate</button>
+    </div>
+
+    <div id="status"></div>
+
+    <div id="report" class="report" style="display:none;">
+      <div id="verdict" class="verdict"></div>
+      <div id="narrative" class="narrative"></div>
+
+      <h3>Rule Findings</h3>
+      <div id="findings"></div>
+    </div>
+  </div>
+
+  <script>
+    const btn = document.getElementById('investigate-btn');
+    const statusEl = document.getElementById('status');
+    const reportEl = document.getElementById('report');
+    const verdictEl = document.getElementById('verdict');
+    const narrativeEl = document.getElementById('narrative');
+    const findingsEl = document.getElementById('findings');
+
+    btn.addEventListener('click', async () => {
+      const customerId = document.getElementById('customer').value;
+      statusEl.textContent = 'Running investigation...';
+      reportEl.style.display = 'none';
+      btn.disabled = true;
+
+      try {
+        const res = await fetch('/api/investigate', {
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify({customer_id: customerId})
+        });
+        const data = await res.json();
+
+        if (!res.ok) {
+          statusEl.textContent = 'Error: ' + (data.error || 'unknown error');
+          btn.disabled = false;
+          return;
+        }
+
+        verdictEl.textContent = data.needs_attention
+          ? '⚠ Activity flagged for review'
+          : '✓ No activity requires investigator attention';
+        verdictEl.className = 'verdict ' + (data.needs_attention ? 'flagged' : 'clear');
+
+        narrativeEl.textContent = data.narrative;
+        if (data.narrative_error) {
+          narrativeEl.textContent += '\n\n[Note: ' + data.narrative_error + ']';
+        }
+
+        findingsEl.innerHTML = '';
+        data.findings.forEach(f => {
+          const div = document.createElement('div');
+          div.className = 'finding ' + (f.triggered ? 'triggered' : 'clean');
+          let html = `<strong>${f.label}</strong> — ${f.triggered ? f.transactions.length + ' flagged' : 'not triggered'}`;
+          if (f.triggered) {
+            html += '<ul>';
+            f.transactions.forEach(t => {
+              html += `<li>${t.date} — ${t.description} — ${t.payee} — $${t.amount} (${t.channel})</li>`;
+            });
+            html += '</ul>';
+          }
+          div.innerHTML = html;
+          findingsEl.appendChild(div);
+        });
+
+        statusEl.textContent = '';
+        reportEl.style.display = 'block';
+      } catch (err) {
+        statusEl.textContent = 'Request failed: ' + err.message;
+      } finally {
+        btn.disabled = false;
+      }
+    });
+  </script>
+</body>
+</html>
